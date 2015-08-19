@@ -5,6 +5,15 @@ angular.module('personalWebsiteApp')
     $scope.menu = [{
       'title': 'Home',
       'link': '/'
+    }, {
+      'title': 'Projects',
+      'link': '/#'
+    }, {
+      'title': 'Blog',
+      'link': '/#'
+    }, {
+      'title': 'Hiring',
+      'link': '/#'
     }];
 
     $scope.isCollapsed = true;
