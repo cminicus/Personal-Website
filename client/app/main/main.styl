@@ -1,9 +1,22 @@
+// Variables
+mainColor = #34495E
+bannerHeight = 450px
+// #336E7B
+// #4393B9
+
 .thing-form
     margin 20px 0
+
+// Header Section
+header .container
+    position relative
+    top 50%
+    transform translateY(-50%)
 
 #banner
     border-bottom none
     margin-top -20px
+    height bannerHeight
 
 #banner h1
     font-size 60px
@@ -11,18 +24,24 @@
     line-height 1
 
 .hero-unit
-    background #4393B9
+    background mainColor
     color #F5F5F5
-    padding 30px 15px
     position relative
     text-align center
+    // text-align right
     text-shadow 0 1px 0 rgba(0, 0, 0, 0.1)
 
+// About Section
+#about
+    color mainColor
+
+// Footer Styles
 .footer
     border-top 1px solid #E5E5E5
     margin-top 70px
     padding 30px 0
     text-align center
 
-.navbar-text
-    margin-left 15px
+// change unselected link colors and brand
+.nav.navbar-nav li a, .navbar-default .navbar-brand
+    color mainColor
