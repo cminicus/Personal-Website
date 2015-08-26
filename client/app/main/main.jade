@@ -1,30 +1,49 @@
 div(ng-include='"components/navbar/navbar.html"')
 
-header#banner.hero-unit
+header.banner.main-hero-unit
   .container
     h1 Clayton Minicus
     p.lead Freelance Fullstack iOS and Web Developer
-
+  //-   svg#Layer_1(version='1.1', xmlns='http://www.w3.org/2000/svg', xmlns:xlink='http://www.w3.org/1999/xlink', x='0px', y='0px', width='151.286px', height='300.762px', viewbox='0 0 151.286 300.762', enable-background='new 0 0 151.286 300.762', xml:space='preserve')
+  //-     path(fill='none', id="test-stroke" stroke='#000000', stroke-width='7', stroke-miterlimit='10', d='M16,11.005\
+  //-  c66.838,2.885,97.612,32.217,103.382,45.199c5.77,12.983,36.063,103.382-6.731,121.174c-42.795,17.792-66.838-33.178-71.647-5.771\
+  //-  c-4.808,27.409-34.14,50.489,16.83,80.302c50.97,29.813,77.336,37.025,77.336,37.025')
+    
 .container#about
   .row
-    .col-lg-12
-      h1.page-header About Me
-      p Yo at stuff though
+    .col-md-4.text-center
+      img.description-image(src="assets/images/web-development-icon.png")
+      p.lead Web Development
+      p Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    .col-md-4.text-center 
+      img.description-image(src="assets/images/ios-development-icon.png")
+      p.lead iOS Development
+      p Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    .col-md-4.text-center
+      img.description-image(src="assets/images/fullstack-development-icon.png")
+      p.lead Combination(?) Development
+      p Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+  
   .row
     .col-lg-12
-      h1.page-header Features:
-      ul.nav.nav-tabs.nav-stacked.col-md-4.col-lg-4.col-sm-6(ng-repeat='thing in awesomeThings')
-        li
-          a(href='#', tooltip='{{thing.info}}')
-            | {{thing.name}}
-            button.close(type='button', ng-click='deleteThing(thing)') ×
-
-  form.thing-form
-    label Syncs in realtime across clients
-    p.input-group
-      input.form-control(type='text', placeholder='Add a new thing here.', ng-model='newThing')
-      span.input-group-btn
-        button.btn.btn-primary(type='submit', ng-click='addThing()') Add New
+      h1.page-header.text-center About Me
+      p.text-center Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+      h1.page-header.text-center Skills
+  //- .row
+  //-   .col-lg-12
+  //-     h1.page-header Features:
+  //-     ul.nav.nav-tabs.nav-stacked.col-md-4.col-lg-4.col-sm-6(ng-repeat='thing in awesomeThings')
+  //-       li
+  //-         a(href='#', tooltip='{{thing.info}}')
+  //-           | {{thing.name}}
+  //-           button.close(type='button', ng-click='deleteThing(thing)') ×
+  //- 
+  //- form.thing-form
+  //-   label Syncs in realtime across clients
+  //-   p.input-group
+  //-     input.form-control(type='text', placeholder='Add a new thing here.', ng-model='newThing')
+  //-     span.input-group-btn
+  //-       button.btn.btn-primary(type='submit', ng-click='addThing()') Add New
 
 footer.footer
   .container

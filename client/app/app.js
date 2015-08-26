@@ -5,6 +5,7 @@ angular.module('personalWebsiteApp', [
   'ngResource',
   'ngSanitize',
   'ngRoute',
+  'ngAnimate',
   'btford.socket-io',
   'ui.bootstrap'
 ])

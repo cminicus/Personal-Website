@@ -1,8 +1,7 @@
 // Variables
 mainColor = #34495E
 bannerHeight = 450px
-// #336E7B
-// #4393B9
+clear = rgba(255, 255, 255, 0)
 
 .thing-form
     margin 20px 0
@@ -13,17 +12,18 @@ header .container
     top 50%
     transform translateY(-50%)
 
-#banner
+.banner
     border-bottom none
-    margin-top -20px
+    // margin-top -20px
+    margin-top -100px
     height bannerHeight
 
-#banner h1
+.banner h1
     font-size 60px
     letter-spacing -1px
     line-height 1
 
-.hero-unit
+.main-hero-unit
     background mainColor
     color #F5F5F5
     position relative
@@ -35,13 +35,47 @@ header .container
 #about
     color mainColor
 
+.description-image
+    height 140px
+    margin 30px 0px
+
 // Footer Styles
 .footer
     border-top 1px solid #E5E5E5
     margin-top 70px
     padding 30px 0
     text-align center
+    // background-color #E5E5E5 // find a color
 
-// change unselected link colors and brand
-.nav.navbar-nav li a, .navbar-default .navbar-brand
-    color mainColor
+// TEST
+#test-stroke
+    stroke yellow
+    stroke-dasharray 50
+    stroke-dashoffset 200
+    transition: all 1s
+
+#test-stroke:hover
+    stroke white
+    stroke-dashoffset 0
+
+// Navbar Styles
+
+// make nav bar clear
+.navbar-default
+    background-color: clear
+    border-color: clear
+
+// change unselected link colors
+.nav.navbar-nav li a
+    background-color clear
+    color rgba(255, 255, 255, .6)
+    transition all 0.25s
+
+// no change in background color
+.nav.navbar-nav li.active a, .nav.navbar-nav li:hover a, .nav.navbar-nav li.active:hover a
+    background-color clear
+    color white
+
+// change brand colors
+.navbar-default .navbar-brand, .navbar-default .navbar-brand:hover
+    color white
