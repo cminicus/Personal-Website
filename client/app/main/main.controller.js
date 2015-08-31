@@ -24,4 +24,24 @@ angular.module('personalWebsiteApp')
     $scope.$on('$destroy', function () {
       socket.unsyncUpdates('thing');
     });
+
+    $scope.languages = [{
+      title: "AngularJS",
+      class: 'angular-list'
+    }, {
+      title: "Express",
+      class: 'express-list'
+    }, {
+      title: "Node.js",
+      class: 'node-list'
+    }, {
+      title: "MongoDB",
+      class: 'mongo-list'
+    }, {
+      title: "Swift",
+      class: 'swift-list'
+    }, {
+      title: "Objective-C",
+      class: 'objective-list'
+    }]
   });

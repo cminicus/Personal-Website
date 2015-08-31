@@ -11,13 +11,13 @@ header.banner.main-hero-unit
     
 .container#about
   .row
-    .col-md-4.text-center
-      img.description-image(src="assets/images/web-development-icon.png")
-      p.lead Web Development
-      p Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
     .col-md-4.text-center 
       img.description-image(src="assets/images/ios-development-icon.png")
       p.lead iOS Development
+      p Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    .col-md-4.text-center
+      img.description-image(src="assets/images/web-development-icon.png")
+      p.lead Web Development
       p Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
     .col-md-4.text-center
       img.description-image(src="assets/images/fullstack-development-icon.png")
@@ -28,7 +28,9 @@ header.banner.main-hero-unit
     .col-lg-12
       h1.page-header.text-center About Me
       p.text-center Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-      h1.page-header.text-center Skills
+      h1.page-header.text-center Languages and Technologies
+      div.col-md-4.col-sm-6.skill-list(ng-repeat="language in languages", ng-class="language.class")
+        p.lead {{language.title}}
   //- .row
   //-   .col-lg-12
   //-     h1.page-header Features:
