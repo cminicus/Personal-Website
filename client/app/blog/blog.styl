@@ -1,7 +1,8 @@
 // Variables
-blogColor = #96281B
+blogColor = #006140
 bannerHeight = 450px
 clear = rgba(255, 255, 255, 0)
+postHeight = 600px
 
 .blog-hero-unit
     background blogColor
@@ -10,3 +11,43 @@ clear = rgba(255, 255, 255, 0)
     text-align center
     // text-align right
     text-shadow 0 1px 0 rgba(0, 0, 0, 0.1)
+
+.blog-post
+    height postHeight
+    text-align center
+
+.inner-blog-post
+    height postHeight - 30
+    // margin 0px 30px
+    background-color rgba(0, 97, 64, 0.05)
+    transition all .35s
+
+.inner-blog-post:hover
+    box-shadow 2px 2px 2px 2px rgba(0, 0, 0, 0.15)
+
+.blog-header
+    height postHeight * 0.25
+    color white
+
+.blog-header h1
+    padding-top 70px
+
+.blog-header p
+    color gray
+    position absolute
+    margin-top 70px
+    right 30px
+
+.blog-triangle
+    // width: @width
+    height: 0
+    border-right 540px solid transparent
+
+.blog-description
+    padding 20px
+
+.blog-footer
+    position absolute
+    width 94.8%
+    bottom 10px
+    height 5px

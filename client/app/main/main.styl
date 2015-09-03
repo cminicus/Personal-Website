@@ -1,21 +1,19 @@
 // Variables
 mainColor = #34495E
 bannerHeight = 450px
-clear = rgba(255, 255, 255, 0)
-
-.thing-form
-    margin 20px 0
 
 // Header Section
 header .container
     position relative
     top 50%
-    transform translateY(-50%)
+    transform translateY(-50%) // 30 for text
+
+header h1
+    margin-top 40px
 
 .banner
     border-bottom none
-    // margin-top -20px
-    margin-top -100px
+    margin-top -72px
     height bannerHeight
 
 .banner h1
@@ -28,92 +26,36 @@ header .container
     color #F5F5F5
     position relative
     text-align center
-    // text-align right
     text-shadow 0 1px 0 rgba(0, 0, 0, 0.1)
 
-// About Section
-#about
-    color mainColor
+.svg-stroke
+    stroke-dasharray 2000
+    stroke-dashoffset 2000
 
+// Offerings Section
 .description-image
     height 140px
     margin 30px 0px
 
-// Skils Section
-.skill-list
-    height 60px
-    text-align center
+// About Section
+.blue-background
+    color mainColor
 
-.skill-list p
-    position relative
-    // top 50%
-    transform translateY(40%)
-
-// Skill List
-angularColor = rgb(135, 32, 25)
-.angular-list
-    background-color angularColor
-    color white
-    transition all 0.4s
-    border 1px solid angularColor
-
-.angular-list:hover
-    color angularColor
-    background-color white
-
-.express-list
+.white-background
     background-color mainColor
     color white
-    transition all 0.4s
-    border 1px solid mainColor
+    padding-bottom 50px
 
-.express-list:hover
-    color mainColor
-    background-color white
+// Skils Section
+.skill-list
+    height 70px
+    margin-bottom 40px
 
-nodeColor = rgb(140, 179, 54)
-.node-list
-    background-color nodeColor
-    color white
-    transition all 0.4s
-    border 1px solid nodeColor
+.skill-list p
+    margin-bottom 5px
 
-.node-list:hover
-    color nodeColor
-    background-color white
-
-mongoColor = rgb(46, 33, 22)
-.mongo-list
-    background-color mongoColor
-    color white
-    transition all 0.4s
-    border 1px solid mongoColor
-
-.mongo-list:hover
-    color mongoColor
-    background-color white
-
-swiftColor = rgb(235, 103, 65)
-.swift-list
-    background-color swiftColor
-    color white
-    transition all 0.4s
-    border 1px solid swiftColor
-
-.swift-list:hover
-    color swiftColor
-    background-color white
-
-objectiveColor = rgb(33, 107, 217)
-.objective-list
-    background-color objectiveColor
-    color white
-    transition all 0.4s
-    border 1px solid objectiveColor
-
-.objective-list:hover
-    color objectiveColor
-    background-color white
+.skill-list img
+    margin-right 15px
 
 // Footer Styles
 .footer
@@ -121,37 +63,3 @@ objectiveColor = rgb(33, 107, 217)
     margin-top 70px
     padding 30px 0
     text-align center
-    // background-color #E5E5E5 // find a color
-
-// TEST
-#test-stroke
-    stroke yellow
-    stroke-dasharray 50
-    stroke-dashoffset 200
-    transition: all 1s
-
-#test-stroke:hover
-    stroke white
-    stroke-dashoffset 0
-
-// Navbar Styles
-
-// make nav bar clear
-.navbar-default
-    background-color: clear
-    border-color: clear
-
-// change unselected link colors
-.nav.navbar-nav li a
-    background-color clear
-    color rgba(255, 255, 255, .6)
-    transition all 0.25s
-
-// no change in background color
-.nav.navbar-nav li.active a, .nav.navbar-nav li:hover a, .nav.navbar-nav li.active:hover a
-    background-color clear
-    color white
-
-// change brand colors
-.navbar-default .navbar-brand, .navbar-default .navbar-brand:hover
-    color white

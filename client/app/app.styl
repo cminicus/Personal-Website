@@ -37,6 +37,29 @@
     margin 0.2em 0
     padding 0.2em 0
 
+// Navbar Styles
+clear = rgba(255, 255, 255, 0)
+// make nav bar clear
+.navbar-default
+    background-color: clear
+    border-color: clear
+
+// change unselected link colors
+.nav.navbar-nav li a
+    background-color clear
+    color rgba(255, 255, 255, .6)
+    transition all 0.25s
+
+// no change in background color
+.nav.navbar-nav li.active a, .nav.navbar-nav li:hover a, .nav.navbar-nav li.active:hover a
+    background-color clear
+    color white
+
+// change brand colors
+.navbar-default .navbar-brand, .navbar-default .navbar-brand:hover
+    color white
+
+
 // Component styles are injected through grunt
 // injector
 @import 'account/login/login.styl';
