@@ -4,27 +4,27 @@ div(ng-include='"components/navbar/navbar.html"')
 header.banner.blog-hero-unit
   .container
     h1 Blog
-    p.lead My thoughts about programming, blah, and projects I have worked on
+    p.lead Under Construction
 //- Blog section    
-.container(style="margin-top:15px")
-  div.col-md-6.blog-post(ng-repeat="post in posts")
-    div.inner-blog-post
-      div.blog-header(style="background-color:{{post.color}}")
-        p.blog-tag.lead.pull-left {{post.tag}}
-        h1 {{post.title}}
-        p.pull-right.lead.blog-date {{post.date}}
-      div.blog-description
-        p {{post.description}}
-      a(href="/blog")
-        svg.blog-arrow(version='1.1', xmlns='http://www.w3.org/2000/svg', xmlns:xlink='http://www.w3.org/1999/xlink', x='0px', y='0px', width='45.941px', height='34.93px', viewbox='0 0 45.941 34.93', enable-background='new 0 0 45.941 34.93', xml:space='preserve')
-          path(fill="{{post.color}}", d='M45.626,19.062c0.054-0.137,0.087-0.281,0.13-0.421c0.034-0.119,0.081-0.235,0.106-0.358c0.106-0.54,0.106-1.096,0-1.636\
-          c-0.025-0.123-0.072-0.239-0.106-0.357c-0.043-0.141-0.076-0.285-0.13-0.421c-0.06-0.141-0.139-0.268-0.213-0.401\
-          c-0.057-0.106-0.105-0.216-0.173-0.318c-0.153-0.23-0.329-0.445-0.524-0.641L31.431,1.224c-1.631-1.632-4.279-1.632-5.906,0\
-          c-1.632,1.63-1.632,4.275,0,5.906l6.159,6.159H4.177C1.87,13.288,0,15.159,0,17.466c0,2.307,1.87,4.175,4.177,4.175h27.508\
-          L25.525,27.8c-1.632,1.631-1.632,4.277,0,5.906c0.813,0.816,1.884,1.224,2.953,1.224c1.068,0,2.137-0.409,2.953-1.224l13.284-13.285\
-          c0.196-0.195,0.372-0.41,0.524-0.64c0.067-0.102,0.116-0.212,0.173-0.318C45.486,19.33,45.566,19.203,45.626,19.062z')
-
-      div.blog-footer(style="background-color:{{post.color}}")
-        h1 i
+//- .container(style="margin-top:15px")
+//-   div.col-md-6.blog-post(ng-repeat="post in posts")
+//-     div.inner-blog-post
+//-       div.blog-header(style="background-color:{{post.color}}")
+//-         p.blog-tag.lead.pull-left {{post.tag}}
+//-         h1 {{post.title}}
+//-         p.pull-right.lead.blog-date {{post.date}}
+//-       div.blog-description
+//-         p {{post.description}}
+//-       a(href="/blog")
+//-         svg.blog-arrow(version='1.1', xmlns='http://www.w3.org/2000/svg', xmlns:xlink='http://www.w3.org/1999/xlink', x='0px', y='0px', width='45.941px', height='34.93px', viewbox='0 0 45.941 34.93', enable-background='new 0 0 45.941 34.93', xml:space='preserve')
+//-           path(fill="{{post.color}}", d='M45.626,19.062c0.054-0.137,0.087-0.281,0.13-0.421c0.034-0.119,0.081-0.235,0.106-0.358c0.106-0.54,0.106-1.096,0-1.636\
+//-           c-0.025-0.123-0.072-0.239-0.106-0.357c-0.043-0.141-0.076-0.285-0.13-0.421c-0.06-0.141-0.139-0.268-0.213-0.401\
+//-           c-0.057-0.106-0.105-0.216-0.173-0.318c-0.153-0.23-0.329-0.445-0.524-0.641L31.431,1.224c-1.631-1.632-4.279-1.632-5.906,0\
+//-           c-1.632,1.63-1.632,4.275,0,5.906l6.159,6.159H4.177C1.87,13.288,0,15.159,0,17.466c0,2.307,1.87,4.175,4.177,4.175h27.508\
+//-           L25.525,27.8c-1.632,1.631-1.632,4.277,0,5.906c0.813,0.816,1.884,1.224,2.953,1.224c1.068,0,2.137-0.409,2.953-1.224l13.284-13.285\
+//-           c0.196-0.195,0.372-0.41,0.524-0.64c0.067-0.102,0.116-0.212,0.173-0.318C45.486,19.33,45.566,19.203,45.626,19.062z')
+//- 
+//-       div.blog-footer(style="background-color:{{post.color}}")
+//-         h1 i
         
 div(ng-include='"components/footer/footer.html"')

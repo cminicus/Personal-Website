@@ -48,7 +48,7 @@ angular.module('personalWebsiteApp')
     $scope.languages = [{
       title: "Swift",
       imageName: 'swift-list-icon.png',
-      description: 'The most recent native iOS language used to build most modern iOS applications allowing for safer and more flexible code writing'
+      description: 'The most recent native iOS language which allows for a safer and more flexible codebase'
     }, {
       title: "Objective-C",
       imageName: 'objective-list-icon.png',
@@ -56,7 +56,7 @@ angular.module('personalWebsiteApp')
     }, {
       title: "MongoDB",
       imageName: 'mongodb-list-icon.png',
-      description: 'A noSQL, schema-less database which allows for object oriented database document storage and retrieval'
+      description: 'A noSQL, schema-less database which allows for object-oriented database document storage and retrieval'
     }, {
       title: "Express",
       imageName: 'express-list-icon.png',
@@ -64,10 +64,10 @@ angular.module('personalWebsiteApp')
     }, {
       title: "AngularJS",
       imageName: 'angular-list-icon.png',
-      description: 'A front end framework that allows for dynamic and reusable views with expressive, readable, and very scalable code'
+      description: 'A front-end framework that allows for dynamic and reusable views with expressive, readable, and scalable code'
     }, {
       title: "Node.js",
       imageName: 'node-list-icon.png',
-      description: 'An asynchronous event driven framework that allows for scalable network applications requiring server connections'
+      description: 'An asynchronous, event driven framework that allows for scalable network applications requiring server connections'
     }]
   });
