@@ -12,8 +12,8 @@ angular.module('personalWebsiteApp')
       'title': 'Blog',
       'link': '/blog'
     }, {
-      'title': 'Hiring',
-      'link': '/hiring'
+      'title': 'Contact',
+      'link': '/contact'
     }];
 
     $scope.isCollapsed = true;

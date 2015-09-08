@@ -63,8 +63,8 @@ angular.module('personalWebsiteApp')
 
     $scope.projects = [{
       title: 'SideGuide',
-      backgroundColor: '#32a768',
-      image: 'image-name',
+      backgroundColor: '#276358',
+      image: 'sideguide-logo.png',
       highlights: [
       {
         icon: 'icon-name',
@@ -72,15 +72,15 @@ angular.module('personalWebsiteApp')
         description: 'Used blah to blah on the blah'
       }, {
         icon: 'icon-name',
-        title: 'GPS',
+        title: 'Augmented Reality',
         description: 'Used blah to blah on the blah'
       }, {
         icon: 'icon-name',
-        title: 'GPS',
+        title: 'Messaging',
         description: 'Used blah to blah on the blah'
       }, {
         icon: 'icon-name',
-        title: 'GPS',
+        title: 'Web Integration',
         description: 'Used blah to blah on the blah'
       }]
     }, {

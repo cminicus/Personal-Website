@@ -1,16 +1,16 @@
 'use strict';
 
-describe('Controller: HiringCtrl', function () {
+describe('Controller: ContactCtrl', function () {
 
   // load the controller's module
   beforeEach(module('personalWebsiteApp'));
 
-  var HiringCtrl, scope;
+  var ContactCtrl, scope;
 
   // Initialize the controller and a mock scope
   beforeEach(inject(function ($controller, $rootScope) {
     scope = $rootScope.$new();
-    HiringCtrl = $controller('HiringCtrl', {
+    ContactCtrl = $controller('ContactCtrl', {
       $scope: scope
     });
   }));
