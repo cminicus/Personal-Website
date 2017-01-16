@@ -158,29 +158,29 @@ header.banner.projects-hero-unit
       //- p.lead A list of all the major projects I've worked on as a developer
       p.lead Under Construction
     
-.container
-  .row 
-    .col-md-12
-      h1.page-header.text-center iOS Projects
-      
-div#projects-container(ng-repeat="project in projects")
-  div.project-header(style="background-color: {{project.backgroundColor}}")
-    .container
-      .row
-        .col-md-12(style="position:relative")
-          //- h1 {{project.title}}
-          img.img-responsive.title-image(ng-src="assets/images/dynamic/projectList/{{project.image}}")
-          //- have image as well
-          // - maybe also have a little screenshot section?
-  .container
-    .row.project-highlights
-      .col-sm-6(ng-repeat="highlight in project.highlights")
-        p.lead {{highlight.title}}
-        p {{highlight.description}}
-      
-.container
-  .row 
-    .col-lg-12
-      h1.page-header.text-center Web Projects
+//- .container
+//-   .row 
+//-     .col-md-12
+//-       h1.page-header.text-center iOS Projects
+//-       
+//- div#projects-container(ng-repeat="project in projects")
+//-   div.project-header(style="background-color: {{project.backgroundColor}}")
+//-     .container
+//-       .row
+//-         .col-md-12(style="position:relative")
+//-           //- h1 {{project.title}}
+//-           img.img-responsive.title-image(ng-src="assets/images/dynamic/projectList/{{project.image}}")
+//-           p.lead.pull-left link to blog post?
+//-           // - maybe also have a little screenshot section?
+//-   .container
+//-     .row.project-highlights
+//-       .col-sm-6(ng-repeat="highlight in project.highlights")
+//-         p.lead {{highlight.title}}
+//-         p {{highlight.description}}
+//-       
+//- .container
+//-   .row 
+//-     .col-lg-12
+//-       h1.page-header.text-center Web Projects
 
 div(ng-include='"components/footer/footer.html"')

@@ -85,30 +85,30 @@ angular.module('personalWebsiteApp')
       }]
     }, {
       title: 'JHU News-Letter',
-      backgroundColor: '#32a768',
-      image: 'image-name',
+      backgroundColor: '#369ed9',
+      image: 'sideguide-logo.png',
       highlights: [
       {
         icon: 'icon-name',
-        title: 'GPS',
+        title: 'XML Parsing',
         description: 'Used blah to blah on the blah'
       }, {
         icon: 'icon-name',
-        title: 'GPS',
+        title: 'Persistant Local Caching',
         description: 'Used blah to blah on the blah'
       }, {
         icon: 'icon-name',
-        title: 'GPS',
-        description: 'Used blah to blah on the blah'
+        title: 'Content Aware Layout',
+        description: 'Formatting a page for several formats (picture vs no picture etc)'
       }, {
         icon: 'icon-name',
-        title: 'GPS',
+        title: 'Tip Form Submission',
         description: 'Used blah to blah on the blah'
       }]
     }, {
       title: 'Nessie',
-      backgroundColor: '#32a768',
-      image: 'image-name',
+      backgroundColor: '#e49c3c',
+      image: 'sideguide-logo.png',
       highlights: [
       {
         icon: 'icon-name',
